@@ -16,6 +16,8 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
     margin-bottom: 10px;
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
 }
 
 .operator-grid {
@@ -44,4 +46,8 @@ button {
     width: 250px;
     height: 55px;
     background-color:beige;
+}
+
+#equals{
+    grid-column-start: span 2;
 }
